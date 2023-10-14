@@ -1,0 +1,27 @@
+POST http://localhost:3332/criarVideos
+Content-Type: application/json
+
+{
+  "title": "Vídeo node",
+  "description": "Uma descrição do vídeo...",
+  "duration": 180
+}
+
+###
+
+GET http://localhost:3332/videos
+
+###
+
+PUT http://localhost:3332/videos/2dfac9c3-40aa-494c-b434-903b35bd2651
+Content-Type: application/json
+
+{
+  "title": "Vídeos 02",
+  "description": "Uma descrição do vídeo...",
+  "duration": 180
+}
+
+###
+
+DELETE http://localhost:3332/videos/16cc2122-62c6-4b41-8b3f-fb13949bec0e
